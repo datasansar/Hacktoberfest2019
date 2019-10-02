@@ -1,11 +1,20 @@
 [
   {
     "title": "git init",
-    "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
+    "description": "The git init command creates a new Git repository. It converts our current working folder to a Git repository or initialize a new repository."
   },
   {
     "title": "git add",
-    "description": "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
+    "description": "The git add command adds a change in the working directory to the staging area. It notify Git that you want to include updates to a particular file in the next commit."
+  },
+
+ {
+    "title": "git commit",
+    "description": "The git commit command captures a snapshot of the project's currently staged changes."
   }
+
+
+
+
 ]
 
