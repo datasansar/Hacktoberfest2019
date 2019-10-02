@@ -42,7 +42,7 @@ p, li, span{
 }
 
 .header img{
-  height: 420px;
+  width: 55%;
 }
 
 .header-content{
@@ -60,7 +60,7 @@ p, li, span{
   }
 
   .header img{
-    height: 280px;
+    width: 80%;
   }
 }
 
@@ -119,8 +119,8 @@ a.navbar-item:hover{
   line-height: 1.5;
 }
 
-.logo-2018{
-  height: 500px;
+.logo-2019 {
+  width: 80%;
 }
 
 
