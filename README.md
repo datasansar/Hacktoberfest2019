@@ -26,15 +26,15 @@ Also, add your github username in the <a href="https://github.com/sdnepal/Hackto
 
 - First, visit our site: [hacktm.js.org](https://hacktm.js.org)
 
-- Move to Instructions by clicking on the button <pre>START CONTRIBUTING</pre> 
+- Find the Instructions by clicking on the button <pre>START CONTRIBUTING</pre> 
 
-- Read the Instructions and click Done at the end to move to the repository or <a href="https://github.com/sdnepal/Hacktoberfest2019">click here</a> to head to the repository.
+- Read the Instructions and click **Done** at the end to move to the repository or <a href="https://github.com/sdnepal/Hacktoberfest2019">click here</a> to head to the repository.
 
 ### 3. Star and Fork this Repository
 
 - You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
 
-- Here, **sdnepal** is the owner of the hacktoberfest repository, so the GitHub URL for this project is: 
+- Here, **sdnepal** holds the hacktoberfest repository, so the GitHub URL for this project is: 
 
 > <a href="https://github.com/sdnepal/Hacktoberfest2019" target="blank">https://github.com/sdnepal/Hacktoberfest2019</a>
 
