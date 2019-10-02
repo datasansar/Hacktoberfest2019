@@ -159,6 +159,6 @@ Also, add your github username in the <a href="https://github.com/sdnepal/Hackto
 
 ![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg) 
 
-[Hacktoberfest Kathmandu](https://hacktm.js.org) &copy; 2019
+<a href="https://hacktm.js.org"><img src="./assets/img/hactoberfestktm.png"></a>
 
 </center>
