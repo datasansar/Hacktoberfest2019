@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GIT-INIT</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="../assets/img/hactoberfest.png" type="image/x-icon">
+  <!-- bulma -->
+  <link rel="stylesheet" href="../assets/lib/bulma-0.7.5/bulma-0.7.5/css/bulma.min.css">
+  <!-- local css -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/menu.css">
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="https://kit.fontawesome.com/22be60108b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  
+  <!--navbar-->
+  <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div class="row">
+        <div class="col-md-12">
+          <div class="row text-center" style="margin:auto;">
+          <div class="list1 col-md-4">
+            <ul style="list-style: none;">
+              <h2 class="menu-head">What we do??</h2>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="https://digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="_blank">Learn about Git and GitHub</a></li>
+              <li><a href="https://github.com/sdnepal" target="_blank">Organisation</a></li>
+              <li><a href="../pages/wiz/instruction.html" target="_blank">Instructions to Contribute</a></li>
+              <li><a href="./gitcheatsheet.html">Git CheatSheet</a></li>
+              <li><a href="./contributors.html">Contributors list</a></li>
+            </ul>
+          </div>
+              </div>
+
+              <div class="row">
+                <div class="social">
+                  <a href="mailto:studentdevnepal@gmail.com?Subject=Hacktoberfest%202019" target="_blank"><i class="fas fa-envelope-open-text fa-2x"></i></a>
+                  <a href="https://github.com/sdnepal" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://join.slack.com/t/sdnepal/shared_invite/enQtNzgwMzk0MjIyNDUyLWEyOTczYzgxODIzZmI4YWI2MThmNjRkZGM1M2IzMDYxZDAzMmQwMDE4MjNiZjhhNDdkZDc5MzE1NGYxZWUyMGY" target="_blank"><i class="fab fa-slack"></i></a>
+                </div>
+              </div>
+
+              
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--navbar-->
+
+<div class="hero">
+  <div class="gitinit-header">
+    <h1 class="title text-white is-1 text-center page-heading">CONTRIBUTORS</h1>
+  </div>
+</div>
+
+<div class="pt-3">
+  <div class="block">
+    <h1 class="is-2 title text-center pb-1" style="color: #322054;letter-spacing: 0.15ch;">TEAM</h1>
+
+    <div class="members-container">
+        <div class="member-card">
+            <div class="profile-sidebar">
+                    <img class="profile-image" src="https://avatars2.githubusercontent.com/u/__________?v=4" alt=""/>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a aria-label="github" href="https://githum.com/username/" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                      <li>
+                        <a aria-label="linkedin" href="https://www.linkedin.com/in/username/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                      <li>
+                        <a aria-label="instagram" href="https://www.instagram.com/rajatverma2502/" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-main">
+                <h2 class="profile-name">Name</h2>
+                <p class="profile-position">Position</p>
+                <p class="profile-body">Description </p>
+            </div>
+        </div>
+   
+
+        <div class=""></div>
+
+    </div>
+
+    <br>
+
+    <hr style="width:70%; border-top: 1px solid #3297d8;">
+
+  <h1 class="is-2 title text-center pb-1 pt-3" style="color: #322054; letter-spacing: 0.15ch">CONTRIBUTORS</h1>
+
+    <div class="contributors-list"></div>
+<script>
+
+      let data = getcontributorsData();
+      function getcontributorsData(){
+        let client_id = '45ebb6d8e84478c05bec';
+        let client_secret = '11ffca05704f88d486072382012903f147489b8c'; 
+        let url1 = `https://api.github.com/repos/sdnepal/Hacktoberfest2019/contributors?per_page=500&client_id=${this.client_id}&client_secret=${this.client_secret}`;
+        return new Promise((resolve, reject) => {
+          fetch(url1)
+          .then(data => data.json())
+          .then(jsondata => resolve(jsondata))
+          .catch(err => reject(err));
+        })
+      }
+      data.then(json => console.log(json))
+      data.then(json => htmldata(json))
+      function htmldata(jsondata){
+        let output = '';
+        jsondata.forEach((item, index) => {
+          output += `<div class="column card">
+              <img class="" src=${item.avatar_url} alt="" />
+              <div>
+                  <a href=${item.html_url} target="_blank"><h4 class="title is-4">${item.login}</h4></a>
+                  <p><small>Contributions: ${item.contributions}</small></p>
+              </div>
+          </div>`
+        })
+        document.getElementsByClassName("contributors-list")[0].innerHTML = output;
+      }
+
+</script>
+  </div>
+</div>
+
+
+<!--footer-->
+<footer>
+
+  <div class="container" id="about-us">
+    <div class="block">
+      <div class="columns footer-container">
+        <div class="column is-5">
+           <h3 class="ptb">About Us</h3>
+           <p class="subtitle text-white">We are the open source enthusiasts of Student Developers from Nepal. This is an initiative to contribute to open source community and a warm welcome to the beginners and contributors who are there to help it grow.</p>
+        </div>
+        <div class="column is-4 text-center">
+          <div class="block">
+            <h3>Contact Us</h3>
+            <ul class="d-flex">
+              <li><a href="https://github.com/sdnepal/Hacktoberfest2019" target="_blank"><i class="fab fa-github fa-2x">  </i><p>  Star Us on GitHub</p></a></li>
+              <li><a href="mailto:studentdevnepal@gmail.com?Subject=Hacktoberfest%202019" target="_blank"><i class="fas fa-envelope-open-text fa-2x">  </i><p>  Email Us</p></a></li>
+              <li><a href="https://join.slack.com/t/sdnepal/shared_invite/enQtNzgwMzk0MjIyNDUyLWEyOTczYzgxODIzZmI4YWI2MThmNjRkZGM1M2IzMDYxZDAzMmQwMDE4MjNiZjhhNDdkZDc5MzE1NGYxZWUyMGY" target="_blank"><i class="fab fa-slack fa-2x"></i><p>  Chat on Slack</p></a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="column is-4 footer-logo">
+          <img src="../assets/img/hactoberfest.png" >
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </footer>
+  <!--footer-->
+
+  
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </body>
+  </html>
+
