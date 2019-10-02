@@ -8,13 +8,13 @@
     "description": "The git add command adds a change in the working directory to the staging area. It notify Git that you want to include updates to a particular file in the next commit."
   },
 
- {
+  {
     "title": "git commit",
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
+  },
+  
+  {
+    "title": "git clone",
+    "description": "The git clone command target an existing repository and create a clone, or copy of the target repository."
   }
-
-
-
-
 ]
-
