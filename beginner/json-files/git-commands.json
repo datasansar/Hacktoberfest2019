@@ -16,5 +16,10 @@
   {
     "title": "git clone",
     "description": "The git clone command target an existing repository and create a clone, or copy of the target repository."
+  },
+  
+  {
+    "title": "git diff",
+    "description": "The git diff command shows the differences between files that haven't been staged yet."
   }
 ]
