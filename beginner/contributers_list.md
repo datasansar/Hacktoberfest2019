@@ -2,8 +2,5 @@
 
 2. Bibek Thapa (bitha007)
 
-3. Aasutosh Kumar Jha(aasutossh)
+3. Ben Sailors (Gwythian)
 
-4. Ben Sailors (Gwythian)
-
-5. 
