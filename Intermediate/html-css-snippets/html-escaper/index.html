@@ -1,0 +1,33 @@
+<html>
+
+<body>
+    <div>
+        <h1>Enter your unescaped text here.</h1>
+        <textarea onkeyup="escapeText()" id="unescaped-text" cols="120" rows="15"></textarea>
+    </div>
+
+    <div>
+        <h1>Your html escaped text renders here.</h1>
+        <textarea id="escaped-text" cols="120" rows="15"></textarea>
+
+    </div>
+
+
+    <script>
+        function escapeText() {
+
+            let unescapedText = document.getElementById("unescaped-text").value
+
+            let escapedText = unescapedText
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+
+            document.getElementById("escaped-text").value = escapedText;
+        }
+    </script>
+</body>
+
+</html>

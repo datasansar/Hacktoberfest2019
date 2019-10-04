@@ -26,7 +26,9 @@
   {
     "title": "git diff",
     "description": "The git diff command shows the differences between files that haven't been staged yet."
+  },
+  {
+    "title": "git checkout <branch_name>",
+    "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
   }
-  
-  
 ]
