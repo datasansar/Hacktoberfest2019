@@ -1,34 +1,41 @@
 [
-  {
-    "title": "git init",
-    "description": "The git init command creates a new Git repository. It converts our current working folder to a Git repository or initialize a new repository."
-  },
-  {
-    "title": "git add",
-    "description": "The git add command adds a change in the working directory to the staging area. It notify Git that you want to include updates to a particular file in the next commit."
-  },
 
-  {
-    "title": "git commit",
-    "description": "The git commit command captures a snapshot of the project's currently staged changes."
-  },
-  
-  {
-    "title": "git clone",
-    "description": "The git clone command target an existing repository and create a clone, or copy of the target repository."
-  },
-  
-  {
-    "title": "git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all",
-    "description": "This log command returns a pretty git log with one line colorful commit summary, and absolute commit date."
-  },
+    {
+        "title": "git init",
+        "description": "The git init command creates a new Git repository. It converts our current working folder to a Git repository or initialize a new repository."
+    },
+    {
+        "title": "git add",
+        "description": "The git add command adds a change in the working directory to the staging area. It notify Git that you want to include updates to a particular file in the next commit."
+    },
 
-  {
-    "title": "git diff",
-    "description": "The git diff command shows the differences between files that haven't been staged yet."
-  },
-  {
-    "title": "git checkout <branch_name>",
-    "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
-  }
+    {
+        "title": "git commit",
+        "description": "The git commit command captures a snapshot of the project's currently staged changes."
+    },
+
+    {
+        "title": "git clone",
+        "description": "The git clone command target an existing repository and create a clone, or copy of the target repository."
+    },
+
+    {
+        "title": "git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all",
+        "description": "This log command returns a pretty git log with one line colorful commit summary, and absolute commit date."
+    },
+
+    {
+        "title": "git diff",
+        "description": "The git diff command shows the differences between files that haven't been staged yet."
+    },
+    {
+        "title": "git checkout <branch_name>",
+        "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
+    },
+
+    {
+        "title": "git branch",
+        "description": "The git branch command lists all local branches in the current repository."
+    }
+
 ]
