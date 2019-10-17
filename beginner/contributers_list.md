@@ -11,3 +11,7 @@
 6. Mahesh C. Regmi (geekyarthurs)
 
 7. Kushank Tamang (iamkushank)
+
+8. Binish Manandhar (binish784)
+
+9. Surya Bhusal (sbhusal123)

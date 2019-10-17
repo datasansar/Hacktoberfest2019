@@ -34,5 +34,13 @@
   {
     "title": "git status -u ",
     "description": "To show untracked files"
+  },
+  {
+    "title": "git reset",
+    "description":"Clear the files from staging area"
+  },
+  {
+    "title": "git pull ",
+  	"description": "Fetch and integrate the repository to the local repository"
   }
 ]
