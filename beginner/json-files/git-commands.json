@@ -34,7 +34,18 @@
 
 
  {
-"title": "git clone <url>",
-"description": "The git clone downloads the files from the url"
-}
+ "title": "git clone <url>",
+ "description": "The git clone downloads the files from the url"
+ },
+
+  {
+    "title": "git reset",
+    "description":"Clear the files from staging area"
+  }, 
+  
+  {
+    "title": "git pull ",
+  	"description": "Fetch and integrate the repository to the local repository"
+  }
+
 ]
