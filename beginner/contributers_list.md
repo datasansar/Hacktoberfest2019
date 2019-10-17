@@ -17,26 +17,17 @@
 9. Surya Bhusal (sbhusal123)
 
 10. Sushan Shakya (SushanShakya)
-11. Pradeep Shrestha (SecretAgent619)
 
-12. Sushan Shakya (SushanShakya)
+11. Pradeep Shrestha (SecretAgent619)
 
 13. Sushil S. Bajracharya (SushilBajracharya01)
 
-14.Prabindra Sapkota (prabin89)
+14. Prabindra Sapkota (prabin89)
 
 15. Kushank Tamang (iamkushank)
 
-16. Binish Manandhar (binish784)
+16. Anwesh Budhathoki (anwesh-b)
 
-17. Surya Bhusal (sbhusal123)
+17. Anish khatiwada (anish-khatiwada)
 
-18. Sushan Shakya (SushanShakya)
-
-19. Sushil S. Bajracharya (SushilBajracharya01)
-
-20. Sushil S. Bajracharya (SushilBajracharya01)
-
-21. Anwesh Budhathoki (anwesh-b)
-
-22. Santosh Jaiswal (SantoshJ75)
+18. Santosh Jaiswal (SantoshJ75)
