@@ -30,5 +30,11 @@
   {
     "title": "git checkout <branch_name>",
     "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
-  }
+  },
+
+
+ {
+"title": "git clone <url>",
+"description": "The git clone downloads the files from the url"
+}
 ]
