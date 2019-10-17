@@ -28,7 +28,20 @@
     "description": "The git diff command shows the differences between files that haven't been staged yet."
   },
   {
-    "title": "git checkout <branch_name>",
+    "title": "git checkout -b <branch_name>",
     "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
+  },
+  {
+    "title": "git reset",
+    "description":"Clear the files from staging area"
+  }, 
+  
+  {
+    "title": "git pull ",
+  	"description": "Fetch and integrate the repository to the local repository"
+  },
+  {
+    "title": "git merge [branch_name] ",
+    "description": "This git command allows user to merge the current branch into the active branch."
   }
 ]
