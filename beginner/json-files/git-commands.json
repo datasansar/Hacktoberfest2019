@@ -56,9 +56,13 @@
   	"description": "Fetch and integrate the repository to the local repository"
   },
   {
-    "title": "git merge [branch_name] ",
+  "title": "git merge [branch_name] ",
     "description": "This git command allows user to merge the current branch into the active branch."
-  }
+  },
+  {
+	  "title": "git stash",
+	  "description": "This command temporarily stores all the modified tracked files."
+},
   {
    "title":"git mv",
    "description":"Move or rename a file, directory or symlink."
