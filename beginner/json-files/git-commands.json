@@ -4,6 +4,7 @@
         "title": "git init",
         "description": "The git init command creates a new Git repository. It converts our current working folder to a Git repository or initialize a new repository."
     },
+
     {
         "title": "git add",
         "description": "The git add command adds a change in the working directory to the staging area. It notify Git that you want to include updates to a particular file in the next commit."
@@ -28,102 +29,78 @@
         "title": "git diff",
         "description": "The git diff command shows the differences between files that haven't been staged yet."
     },
+
     {
-        "title": "git checkout <branch_name>",
+        "title": "git checkout [branch_name]",
         "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
     },
 
     {
         "title": "git branch",
         "description": "The git branch command lists all local branches in the current repository."
+    },
+
+    {
+        "title": "git reset",
+        "description": "Clear the files from staging area"
+    },
+
+    {
+        "title": "git pull ",
+        "description": "Fetch and integrate the repository to the local repository"
+    },
+
+    {
+        "title": "git checkout -b [branch_name]",
+        "description": "This git command creates a branch with the 'branch_name' and also goes into it (checks in the newly created branch)."
+    },
+
+    {
+        "title": "git diff",
+        "description": "The git diff command shows the differences between files that haven't been staged yet."
+    },
+
+    {
+        "title": "git clone [url]",
+        "description": "The git clone downloads the files from the url"
+    },
+
+    {
+        "title": "git reset",
+        "description": "Clear the files from staging area"
+    },
+
+    {
+        "title": "git pull",
+        "description": "Fetch and integrate the repository to the local repository"
+    },
+
+    {
+        "title": "git push origin",
+        "description": "git push origin helps to push the commit to the local repository"
+    },
+
+    {
+        "title": "git merge [branch_name] ",
+        "description": "This git command allows user to merge the current branch into the active branch."
+    },
+
+    {
+        "title": "git stash",
+        "description": "This command temporarily stores all the modified tracked files."
+    },
+
+    {
+        "title": "git log follow[file]",
+        "description": "This command lists version history for a file, including the renaming of files also."
+    },
+
+    {
+        "title": "git rm -r [file-name.txt]",
+        "description": "The git remove command remove a file (or folder)"
+    },
+    {
+        "title": "git mv",
+        "description": "Move or rename a file, directory or symlink."
     }
-
-]
-=======
-[{
-        "title": "git init",
-        "description": "The git init command creates a new Git repository. It converts our current working folder to a Git repository or initialize a new repository."
-    },
-    {
-        "title": "git add",
-        "description": "The git add command adds a change in the working directory to the staging area. It notify Git that you want to include updates to a particular file in the next commit."
-    },
-
-    {
-        "title": "git commit",
-        "description": "The git commit command captures a snapshot of the project's currently staged changes."
-    },
-    {
-      "title": "git diff",
-      "description": "The git diff command shows the differences between files that haven't been staged yet."
-    },
-    {
-      "title": "git checkout <branch_name>",
-      "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
-    },
-    {
-      "title": "git reset",
-      "description":"Clear the files from staging area"
-    }, 
-    {
-      "title": "git pull ",
-      "description": "Fetch and integrate the repository to the local repository"
-    },
-    {
-        "title": "git checkout -b <branch_name>",
-        "description": "The git 'checkout -b' command creates a branch with the <branch_name> and also goes into it(checks in) the newly created branch."
-    },
-  {
-    "title": "git diff",
-    "description": "The git diff command shows the differences between files that haven't been staged yet."
-  },
-  {
-    "title": "git checkout -b <branch_name>",
-    "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
-  },
- {
- "title": "git clone <url>",
- "description": "The git clone downloads the files from the url"
- },
-
-  {
-
-    "title": "git reset",
-    "description":"Clear the files from staging area"
-  },
-  {
-    "title": "git pull ",
-  	"description": "Fetch and integrate the repository to the local repository"
-  },
-  {
-
-    "title": "git push origin",
-  	"description": "git push origin helps to push the commit to the local repository"
-  },
-
- {
-  "title": "git merge [branch_name] ",
-    "description": "This git command allows user to merge the current branch into the active branch."
-  },
-  {
-	  "title": "git stash",
-	  "description": "This command temporarily stores all the modified tracked files."
-},
-  {
-    "title": "git log follow[file]",
-    "description": "This command lists version history for a file, including the renaming of files also."
-  },
-  {
-    "title": "git checkout <branch_name>",
-    "description": "The git checkout command changes the current working branch to the specified branch in <branch_name> you can further pass -b if the branch is not already present."
-  }, 
-
-   {
-    "title": "git rm -r [file-name.txt]",
-    "description": "The git remove command remove a file (or folder)"
-  },
- {
-    "title":"git mv",
-   "description":"Move or rename a file, directory or symlink."
-  }
 ]
