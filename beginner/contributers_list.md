@@ -10,4 +10,22 @@
 
 6. Mahesh C. Regmi (geekyarthurs)
 
-7.Anish khatiwada (anish-khatiwada)
+7. Anita chalaune (aanita123)
+
+8. Binish Manandhar (binish784)
+
+9. Surya Bhusal (sbhusal123)
+
+10. Sushan Shakya (SushanShakya)
+
+11. Pradeep Shrestha (SecretAgent619)
+
+13. Sushil S. Bajracharya (SushilBajracharya01)
+
+14. Prabindra Sapkota (prabin89)
+
+15. Kushank Tamang (iamkushank)
+
+16. Anwesh Budhathoki (anwesh-b)
+
+17. Anish khatiwada (anish-khatiwada)
