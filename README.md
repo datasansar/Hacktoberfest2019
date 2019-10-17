@@ -1,14 +1,14 @@
 # Hacktoberfest 2019
 Hello hackers!!! :octocat: This is a beginner-friendly repo for Hacktoberfest to help get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
 
-🎯 If you are a beginner and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our <a href="https://github.com/sdnepal/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">git-commands.json</a> and that counts as your first PR.
+🎯 If you are a beginner and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our <a href="https://github.com/datasansar/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">git-commands.json</a> and that counts as your first PR.
 
 
 > Note: Put description under 60 words at max. 
 
-Also, add your github username in the <a href="https://github.com/sdnepal/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
+Also, add your github username in the <a href="https://github.com/datasansar/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
 
-🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our <a href="https://github.com/sdnepal/Hacktoberfest2019/tree/master/Intermediate" target="blank"> intermediate folder</a> and make contributions as per as your interests.
+🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our <a href="https://github.com/datasansar/Hacktoberfest2019/tree/master/Intermediate" target="blank"> intermediate folder</a> and make contributions as per as your interests.
 
 > 💻 We are open to contributions from anyone to help us in making bigger and better. 
 
@@ -28,15 +28,15 @@ Also, add your github username in the <a href="https://github.com/sdnepal/Hackto
 
 - Find the Instructions by clicking on the button <pre>START CONTRIBUTING</pre> 
 
-- Read the Instructions and click **Done** at the end to move to the repository or <a href="https://github.com/sdnepal/Hacktoberfest2019">click here</a> to head to the repository.
+- Read the Instructions and click **Done** at the end to move to the repository or <a href="https://github.com/datasansar/Hacktoberfest2019">click here</a> to head to the repository.
 
 ### 3. Star and Fork this Repository
 
 - You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
 
-- Here, **sdnepal** holds the hacktoberfest repository, so the GitHub URL for this project is: 
+- Here, **datasansar** holds the hacktoberfest repository, so the GitHub URL for this project is: 
 
-> <a href="https://github.com/sdnepal/Hacktoberfest2019" target="blank">https://github.com/sdnepal/Hacktoberfest2019</a>
+> <a href="https://github.com/datasansar/Hacktoberfest2019" target="blank">https://github.com/datasansar/Hacktoberfest2019</a>
 
 - When you’re on the main page for the repository, you’ll see a button to "Star" and “Fork” the repository on your upper right-hand side of the page, underneath your user icon.
 
@@ -79,17 +79,17 @@ Also, add your github username in the <a href="https://github.com/sdnepal/Hackto
  
 - At this point, you can now modify existing files or add new files to the project on your branch.
 
-- Make sure you have read the <a href="https://github.com/sdnepal/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and easily acceptable PRs.
+- Make sure you have read the <a href="https://github.com/datasansar/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and easily acceptable PRs.
 
 <br>
 
 #### Make Changes Locally.
 
-- When making your beginner level contribution in this repository, find <a href="https://github.com/sdnepal/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favourite git command along with a two-three lines short description in the JSON file.
+- When making your beginner level contribution in this repository, find <a href="https://github.com/datasansar/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favourite git command along with a two-three lines short description in the JSON file.
 
 > Note: JSON files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
 
--  Also, if you are interested in making intermediate or advanced level contributions, head to our <a href="https://github.com/sdnepal/Hacktoberfest2019/tree/master/Intermediate">intermediate section</a> and make your mark.
+-  Also, if you are interested in making intermediate or advanced level contributions, head to our <a href="https://github.com/datasansar/Hacktoberfest2019/tree/master/Intermediate">intermediate section</a> and make your mark.
 
 - Once you have modified existing files or added new files to the project, you can add them to your local repository, which you can do with the git add command. Let’s add the -A flag to add all changes that we have made:
 
@@ -121,7 +121,7 @@ Also, add your github username in the <a href="https://github.com/sdnepal/Hackto
 
 - Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-> ` git remote add upstream https://github.com/sdnepal/Hacktoberfest2019 `
+> ` git remote add upstream https://github.com/datasansar/Hacktoberfest2019 `
 
 - In this example, // upstream // is the short name we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the short name.
 
