@@ -39,5 +39,9 @@
   {
     "title": "git pull ",
   	"description": "Fetch and integrate the repository to the local repository"
-  }
+  },
+  {
+	  "title": "git stash",
+	  "description": "This command temporarily stores all the modified tracked files."
+}
 ]
