@@ -56,6 +56,12 @@
   	"description": "Fetch and integrate the repository to the local repository"
   },
   {
+
+    "title": "git push origin",
+  	"description": "git push origin helps to push the commit to the local repository"
+  },
+
+ {
   "title": "git merge [branch_name] ",
     "description": "This git command allows user to merge the current branch into the active branch."
   },
