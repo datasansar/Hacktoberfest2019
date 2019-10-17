@@ -14,6 +14,8 @@
 
 8. Surya Bhusal (sbhusal123)
 
-9. Sushan Shakya (SushanShakya)
+9. Sushil S. Bajracharya (SushilBajracharya01)
 
-10. Anwesh Budhathoki (anwesh-b)
+10. Sushan Shakya (SushanShakya)
+
+11. Anwesh Budhathoki (anwesh-b)
