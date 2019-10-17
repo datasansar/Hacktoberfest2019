@@ -79,4 +79,9 @@
     "description": "To show untracked files"
   }
 
+  {
+       "title": "git log",
+    "description": "View the commits history." 
+  }
+
 ]
