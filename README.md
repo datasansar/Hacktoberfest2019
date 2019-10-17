@@ -34,7 +34,7 @@ Also, add your github username in the <a href="https://github.com/datasansar/Hac
 
 - You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
 
-- Here, **datasansar** contains the hacktoberfest repository, so the GitHub URL for this project is: 
+- Here, **datasansar** holds the hacktoberfest repository, so the GitHub URL for this project is: 
 
 > <a href="https://github.com/datasansar/Hacktoberfest2019" target="blank">https://github.com/datasansar/Hacktoberfest2019</a>
 
