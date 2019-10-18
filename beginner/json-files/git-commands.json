@@ -126,4 +126,10 @@
     "title":"git mv",
    "description":"Move or rename a file, directory or symlink."
   }
+
+
+  {
+       "title": "git log",
+    "description": "View the commits history." 
+  }
 ]
