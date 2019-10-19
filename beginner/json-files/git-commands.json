@@ -172,5 +172,10 @@
   {
        "title": "git log",
     "description": "View the commits history." 
+  },
+
+  {
+	"title": "git commit -m '<your_message_here>' ",
+	"description":"This command is used to commit all staged changes to local git repoistory with the given message "
   }
 ]
