@@ -172,5 +172,10 @@
   {
        "title": "git log",
     "description": "View the commits history." 
+  },
+  {
+    "title": "git init",
+    "description": "Initializes the current folder to become a git repository."
   }
+
 ]
