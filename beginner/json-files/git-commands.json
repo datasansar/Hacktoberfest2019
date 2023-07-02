@@ -172,5 +172,17 @@
   {
        "title": "git log",
     "description": "View the commits history." 
+  },
+  {
+       "title": "git -config",
+    "description": "Get and set repository and global options" 
+  },
+  {
+       "title": "git -fast-export",
+    "description": "Git data exporter" 
+  },
+  {
+       "title": "git -svn",
+    "description": "Bidirectional operation between a Subversion repository and Git" 
   }
 ]
