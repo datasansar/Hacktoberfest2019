@@ -172,5 +172,22 @@
   {
        "title": "git log",
     "description": "View the commits history." 
+  },
+  {
+    "title":"git branch -d [branch_name]",
+    "description":"The git branch -d command is used to delete a branch with the specified branch_name. Use -D instead of -d to force deletion, even if the branch contains unmerged changes."
+  },
+  {
+    "title":"git rebase [branch_name]:",
+    "description":"The git rebase command allows you to reapply commits from one branch (specified by branch_name) onto another branch."
+  },
+  {
+    "title":"git remote -v",
+    "description":"The git remote -v command shows a list of remote repositories along with their URLs in a more verbose format."
+  },
+  {
+    "title":"git show [commit_hash]",
+    "description":"The git show command displays information about a specific commit, including the changes made in that commit."
   }
+
 ]
